@@ -1,0 +1,239 @@
+body{
+    font-family: 'Montserrat', sans-serif;   
+    overflow-x: hidden;
+}
+
+.logo{
+    margin-left: 90px;
+    width: 70px;
+  
+}
+.slider{
+    
+    max-height: 750px;
+    min-height: 450px;
+    
+}
+.logofooter{
+    max-width: 300px;
+}
+.container-footer{
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.menu a:hover{
+    transform: scale(1.17);
+    transition: .5s;
+}
+
+.contenido{
+    background-color: rgb(19, 18, 18);
+}
+
+.banner{
+    background-image: url(audio_assets/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+
+
+
+.iconos a{
+    color: rgb(255, 255, 255);
+    margin: 10px; 
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+
+}
+.iconos i{
+    color: rgb(255, 250, 254);
+    font-size: 2.1rem;
+    transition: all 0.2s ease-in;
+}
+.iconos a:hover{
+    background-color: white;
+    border: 2px solid rgb(240, 8, 209);
+}
+.iconos a:hover i{
+    color: black;
+}
+.autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+.btn21{
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 3px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+
+}
+.btn21:hover{
+    font-size: 22px;
+    border: 1.2px solid rgb(218, 11, 183);
+    transition: inherit;
+  
+    transform: scale(1.1);
+    color: rgb(218, 11, 183) ;
+
+    
+    
+}
+.rubik{
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 40px;
+}
+.recopi{
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 4px 4px 5px rgb(156, 28, 103);
+}
+.servicios-box{
+    right: 0;
+    bottom: 0;
+    transform: translateY(-50%);
+    opacity: .8;
+}
+.img-fluid{
+    height: 100%;
+}
+.text-shadow{
+    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000;
+}
+.text{
+    border: 2px solid rgba(240, 8, 209, 0.253);
+    color: rgb(156, 28, 103);
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 40px;
+    border-radius: 3px;
+    text-shadow: 3px 3px 4px rgba(10, 10, 10, 0.575);
+}
+.equipo-box{
+    width: 60%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+.equipolink{
+    font-family: 'Rubik Wet Paint', cursive;
+    color: rgb(48, 3, 61);
+    
+}
+.equipolink:hover{
+    color: rgb(156, 28, 103);
+    font-size: 2.7rem;
+}
+
+.equipo-box a{
+    opacity: .6;
+    transition: opacity 350ms, font-size 350ms, width 350ms;
+    width: 250px;
+}
+
+.equipo-box a:hover{
+    opacity: 1;
+}
+
+#equipo-id{
+    max-height: 600px;
+    width: 100%;
+}
+.marko{
+    
+    box-shadow: 4px 4px 5px rgba(134, 18, 134, 0.3);
+    border-radius: 5px;
+}
+.marko:hover{
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+.animate{
+    max-height: 400px;
+    max-width: 300px;
+}
+.audio{
+    margin-left: 190px;
+    margin-top: 120px;
+}
+
+@media screen and (min-width: 576px) {
+    #intro{
+        width: 90% !important;
+    }
+    
+    
+    .servicios-box{
+        width: 60% !important;
+    }
+    .equipo-box{
+        width: 70%;
+    }
+
+    .equipo-box img{
+        width: 46px;
+        height: 46px;
+    }
+
+    .equipo-box a{
+        width: 400px;
+        font-size: 1.5rem;
+    }
+    
+
+    
+    }
+    @media screen and (min-width: 768px) {
+        #intro{
+            width: 70% !important;
+        }
+    
+        
+        .servicios-box{
+            width: 90% !important;
+            right: 50%;
+            bottom: 0;
+            transform: translateY(50%) translateX(50%);
+            opacity: 1;
+        }   
+        .equipo-box a{
+            width: 500px;
+            font-size: 2rem;
+        } 
+        
+        
+        }
+        @media screen and (max-width: 768px){
+            body{
+                background-color: blue;
+                color: chartreuse;
+                
+            }
+
+        }
+      
+        
+      
+        
